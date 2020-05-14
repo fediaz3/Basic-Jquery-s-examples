@@ -57,5 +57,9 @@ body {
     text-decoration: underline; /* les pone una 'underline', osea, subraya el texto */
 }
 
+.hide { /* match con la class="hide" */
+    display: none; /* Hace que no se muestren en la pagina inicialmente*/
+}
+
 
 
