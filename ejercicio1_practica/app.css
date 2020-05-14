@@ -1,0 +1,61 @@
+body {
+    background-color: #EEE;
+    font-family: 'Open Sans', sans-serif;
+}
+/*CONTAINER PRINCIPAL: */
+#container { /* el (contenido del) id=container */
+    margin: 0 auto; /* margen a los lados, que sea automatico */
+    min-width: 600px;  /* ancho minimo en la ventana */
+    max-width: 800px;  /* ancho máximo en la ventana*/
+
+    background-color: white;
+    padding: 40px; /* espacio de relleno, por alrededor del content (contenido)*/
+}
+
+
+/** SECTOR DE LAST-NEW **/
+#last-new h2 { /* el (contenido del) tag <h2></h2> que está dentro del id=last-new */
+    color: white;
+    background-color: tomato;
+}
+
+#last-new p { /* el  tag <p></p> que está dentro del id=last-new */
+    text-align: justify;
+}
+
+#last-new-summary { /* el id=last-new-summary (es donde esta la introduccion)*/
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/** SECTOR DE RELATED NEWS**/
+#related-news { /* el id=related-news */
+    margin-top: 40px; /* agregar un margen por arriba (como sombrero) */
+}
+
+#related-news h2 { /* para el tag <h2></h2> dentro del id=related-news*/
+    background-color: wheat;
+    text-align: center; /* centralizo el texto*/
+}
+
+.related-new-summary { /* hace match con los que su atributo class="related-new-summary" */
+    padding: 20px; /* padding alrededor del contenido */
+    width: 200px; /* el ancho tiene que ser si o si de 200px (los achico)*/
+    border: 1px solid black; /* border va alrededor del padding*/
+    display: inline-block; /* hace estén linea los blockes de esta class consecutivos*/
+    position: relative; /* position relative: si se desplaza la pagina este permanece en su posicion normal */
+    /* position: fixed; */ /* position fixed: lo contrario a relative, y deja en la mismia posicion de la pagina
+    incluso si se desplaza por la pagina hacia abajo*/
+}
+
+.related-new-summary p { /* match con el tag <p></p> de la class="related-new-summary"*/
+    text-align: center;
+}
+
+.related-new-summary h3 { /* match con el tag <h3></h3> de la class="related-new-summary" */
+    text-decoration: underline; /* les pone una 'underline', osea, subraya el texto */
+}
+
+
+
